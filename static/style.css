@@ -1,0 +1,158 @@
+/* -------- General -------- */
+/* ---------------- Body & General ---------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* ---------------- Navbar ---------------- */
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* ---------------- Hero Section ---------------- */
+section.text-center {
+    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+section.text-center h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+section.text-center p {
+    font-size: 1.2rem;
+}
+
+/* ---------------- Cards ---------------- */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ---------------- Buttons ---------------- */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-success {
+    background-color: #198754;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+}
+
+/* ---------------- Tables (Cart) ---------------- */
+table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+td, th {
+    vertical-align: middle !important;
+}
+
+/* ---------------- Forms (Delivery/Profile) ---------------- */
+form label {
+    font-weight: 500;
+}
+
+input, textarea {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* ---------------- Footer (Optional) ---------------- */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ---------------- Responsive Adjustments ---------------- */
+@media (max-width: 768px) {
+    section.text-center h1 {
+        font-size: 2.2rem;
+    }
+
+    section.text-center p {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+}
+.nav-link i {
+    margin-right: 5px;
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+}
+
+.nav-link:hover i {
+    transform: scale(1.2);
+    color: #0d6efd;
+}
